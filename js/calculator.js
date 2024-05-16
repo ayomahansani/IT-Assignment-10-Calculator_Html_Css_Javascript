@@ -10,15 +10,23 @@ buttons.forEach((item) => {
 
         if (item.id === "clear") {
             inputScreen.innerText = "";
-        } else if (item.id === "backspace") {
+        }
+
+        else if (item.id === "backspace") {
             let string = inputScreen.innerText.toString();
             inputScreen.innerText = string.substr(0, string.length - 1);
-        } else if (inputScreen.innerText !== "" && item.id === "equal") {
+        }
+
+        else if (inputScreen.innerText !== "" && item.id === "equal") {
             inputScreen.innerText = eval(inputScreen.innerText);
-        } else if (inputScreen.innerText === "" && item.id === "equal") {
+        }
+
+        else if (inputScreen.innerText === "" && item.id === "equal") {
             inputScreen.innerText = "Empty!";
             setTimeout(() => (inputScreen.innerText = ""), 2000);
-        } else {
+        }
+
+        else {
             inputScreen.innerText += item.id;
         }
 
