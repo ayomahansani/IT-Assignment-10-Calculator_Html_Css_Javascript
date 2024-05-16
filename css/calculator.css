@@ -9,3 +9,7 @@ html {
     padding: 0;
 }
 
+body {
+    align-items: center;
+    background: linear-gradient(320deg, #ffff98, #ff9eaa, #efb8ef);
+}
