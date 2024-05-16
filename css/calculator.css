@@ -18,5 +18,18 @@ body {
 }
 
 .wrapper {
-
+    /*backdrop-filter: blur(6px);*/
+    /*-webkit-backdrop-filter: blur(6px);*/
+    /*background: rgba(255, 255, 255, 0.75);*/
+    /*border: 1px solid rgba(255, 255, 255, 0.01);*/
+    border-radius: 16px;
+    box-shadow: 8px 8px 5px 5px rgba(35, 35, 35, 0.1) ;
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 0 solid rgba(0, 0, 0, 0.78);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
 }
