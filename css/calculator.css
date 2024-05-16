@@ -88,3 +88,11 @@ body {
 .calc-button:active {
     background-color: papayawhip;
 }
+
+.double {
+    flex-basis: 47%;
+}
+
+.triple {
+    flex-basis: 73%;
+}
