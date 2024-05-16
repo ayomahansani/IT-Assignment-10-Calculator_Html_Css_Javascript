@@ -39,10 +39,12 @@ body {
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
     color: black;
     font-size: 35px;
+    font-family: 'Dosis', sans-serif;
     overflow: auto;
     padding: 20px;
     text-align: right;
     width: 326px;
+    height: 80px;
 }
 
 .calc-button-row {
