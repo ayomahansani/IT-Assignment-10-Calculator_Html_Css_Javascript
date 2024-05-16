@@ -4,6 +4,7 @@ const inputScreen = document.querySelector(".screen");
 const buttons = document.querySelectorAll("button");
 console.log(buttons);
 
+
 buttons.forEach((item) => {
 
     item.onclick = () => {
